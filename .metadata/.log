@@ -1,0 +1,150 @@
+!SESSION 2012-01-23 20:36:10.486 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2012-01-23 20:37:05.945
+!MESSAGE Unable to find Action Set: com.aptana.editor.php.presentation
+
+!ENTRY com.aptana.ruby.core 4 0 2012-01-23 20:40:45.856
+!MESSAGE (eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+C:/Users/Noel/AppData/Local/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/80/1/.cp/ruby/core_stubber.rb:180:in `eval': Permission denied - C:\Sites\railscommerce\.metadata\.plugins\com.aptana.ruby.core\-25524616\4 (Errno::EACCES)
+	from C:/Users/Noel/AppData/Local/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/80/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from C:/Users/Noel/AppData/Local/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/80/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from C:/Users/Noel/AppData/Local/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/80/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from C:/Users/Noel/AppData/Local/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/80/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from C:/Users/Noel/AppData/Local/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/80/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from C:/Users/Noel/AppData/Local/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/80/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from C:/Users/Noel/AppData/Local/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/80/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from C:/Users/Noel/AppData/Local/Aptana Studio 3/configuration/org.eclipse.osgi/bundles/80/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+
+
+!ENTRY com.aptana.js.debug.ui 4 0 2012-01-23 20:51:34.032
+!MESSAGE (Build 3.0.0.1313451701) [ERROR]  Launch configuration Firefox - Internal Server at file:/C:/Sites/railscommerce/railscommerce/.metadata/.plugins/org.eclipse.debug.core/.launches/Firefox%20-%20Internal%20Server.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Firefox - Internal Server at file:/C:/Sites/railscommerce/railscommerce/.metadata/.plugins/org.eclipse.debug.core/.launches/Firefox%20-%20Internal%20Server.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:904)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1353)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:452)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:613)
+	at com.aptana.js.debug.ui.internal.StartPageManager.launchConfigurationRemovedInternal(StartPageManager.java:230)
+	at com.aptana.js.debug.ui.internal.StartPageManager.access$1(StartPageManager.java:228)
+	at com.aptana.js.debug.ui.internal.StartPageManager$1.launchConfigurationRemoved(StartPageManager.java:73)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:232)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:216)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2144)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:392)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2266)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:327)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1181)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2012-01-23 20:51:34.034
+!MESSAGE Launch configuration Firefox - Internal Server at file:/C:/Sites/railscommerce/railscommerce/.metadata/.plugins/org.eclipse.debug.core/.launches/Firefox%20-%20Internal%20Server.launch does not exist.
+
+!ENTRY com.aptana.js.debug.ui 4 0 2012-01-23 20:51:34.038
+!MESSAGE (Build 3.0.0.1313451701) [ERROR]  Launch configuration Internet Explorer - Internal Server at file:/C:/Sites/railscommerce/railscommerce/.metadata/.plugins/org.eclipse.debug.core/.launches/Internet%20Explorer%20-%20Internal%20Server.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Internet Explorer - Internal Server at file:/C:/Sites/railscommerce/railscommerce/.metadata/.plugins/org.eclipse.debug.core/.launches/Internet%20Explorer%20-%20Internal%20Server.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:904)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1353)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:452)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:613)
+	at com.aptana.js.debug.ui.internal.StartPageManager.launchConfigurationRemovedInternal(StartPageManager.java:230)
+	at com.aptana.js.debug.ui.internal.StartPageManager.access$1(StartPageManager.java:228)
+	at com.aptana.js.debug.ui.internal.StartPageManager$1.launchConfigurationRemoved(StartPageManager.java:73)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:232)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:216)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationDeleted(LaunchManager.java:2144)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:392)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2266)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:327)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1181)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:45)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2012-01-23 20:51:34.038
+!MESSAGE Launch configuration Internet Explorer - Internal Server at file:/C:/Sites/railscommerce/railscommerce/.metadata/.plugins/org.eclipse.debug.core/.launches/Internet%20Explorer%20-%20Internal%20Server.launch does not exist.
+
+!ENTRY org.eclipse.osgi 2 1 2012-01-23 20:52:05.829
+!MESSAGE NLS missing message: AddRemoveList_inputMessageErrorInfo in: com.aptana.formatter.ui.preferences.messages
+
+!ENTRY org.eclipse.ui.ide 2 4 2012-01-23 20:52:50.738
+!MESSAGE Problems occurred closing the selected resources.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2012-01-23 20:52:50.738
+!MESSAGE The project description file (.project) for 'railscommerce' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY com.aptana.usage 4 0 2012-01-23 20:59:07.426
+!MESSAGE (Build 3.0.0.1325099706) [ERROR]  An error occurred while shutting down the database
+!STACK 0
+java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.shutdown(AptanaDB.java:151)
+	at com.aptana.usage.UsagePlugin.stop(UsagePlugin.java:71)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 37 more
